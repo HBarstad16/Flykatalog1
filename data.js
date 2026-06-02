@@ -272,7 +272,7 @@ const flyData = [
     "specs": {
       "Toppfart": "855 km/t",
       "Rekkevidde": "7 400 km",
-      "Tak": "10 670 m",
+      "Maks høyde": "10 670 m",
       "Radar": "AN/APY-2 360°"
     },
     "brukere": [
@@ -336,20 +336,20 @@ const flyData = [
   {
     "id": "aw101-sar-queen",
     "navn": "AW101 SAR QUEEN",
-    "sub": "Leonardo · Italia ·  Helikopter",
+    "sub": "Leonardo · Italia · Helikopter",
     "badge": "SAR",
     "type": "helikopter",
     "search": "aw101 sar queen helikopter norge",
     "specs": {
-      "Toppfart": "km/t",
-      "Rekkevidde": "km",
+      "Toppfart": "300 km/t",
+      "Rekkevidde": "1390 km",
       "Nyttelast": "kg",
-      "Motorer": ""
+      "Motorer": "3x General Electric CT-7"
     },
     "brukere": [
       "Norge"
     ],
-    "highlight": "Helikopter for SAR og Ambulanse oppdrag.",
+    "highlight": "AW101 SAR Queen brukes av Norge som redningshelikopter gjennom Luftforsvarets 330 skvadron..",
     "bilde": "assets/aw101-sar-queen.png",
     "innhold": "Helikopter for SAR og Ambulanse oppdrag. Her kan du skrive mer detaljert innhold om flyet direkte i data.js."
   }
