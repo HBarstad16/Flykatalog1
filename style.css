@@ -88,8 +88,6 @@ body {
 .fly-navn { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.05em; line-height: 1; color: var(--text); }
 .fly-sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
 .gen-badge { font-size: 11px; padding: 4px 8px; border-radius: 999px; background: rgba(79,142,247,.14); color: #cfe0ff; border: 1px solid rgba(79,142,247,.35); white-space: nowrap; }
-.silhouette { height: 70px; display: flex; align-items: center; justify-content: flex-start; color: var(--dim); font-size: 12px; }
-.silhouette img { height: 100%; width: auto; max-width: 100%; object-fit: contain; opacity: 0.9; }
 .specs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .spec { display: flex; flex-direction: column; gap: 2px; }
 .spec-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--dim); }

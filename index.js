@@ -27,10 +27,6 @@ function lagKort(fly) {
         <span class="gen-badge">${fly.badge}</span>
       </div>
 
-      <div class="silhouette">
-        <img src="${fly.bilde}" alt="${fly.navn}" onerror="this.style.display='none'; this.parentElement.innerHTML='Legg bilde i ${fly.bilde}'">
-      </div>
-
       <div class="specs">${specs}</div>
 
       <div>
