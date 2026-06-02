@@ -27,6 +27,7 @@ function lagKort(fly) {
         <span class="gen-badge">${fly.badge}</span>
       </div>
 
+
       <div class="specs">${specs}</div>
 
       <div>

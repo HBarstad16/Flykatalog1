@@ -352,7 +352,7 @@ const flyData = [
     "highlight": "AW101 SAR Queen brukes av Norge som redningshelikopter gjennom Luftforsvarets 330 skvadron..",
     "bilde": "assets/aw101-sar-queen.png",
     "innhold": "Helikopter for SAR og Ambulanse oppdrag. Her kan du skrive mer detaljert innhold om flyet direkte i data.js."
-  }
+  },
   {
   id: "bell-412",
   navn: "Bell 412",
