@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NATO Flykatalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <h1 class="hero-title">NATO FLY</h1>
+    <p class="hero-desc">Oversikt over NATOs aktive militærfly</p>
+  </section>
+
+  <div class="controls">
+    <span class="controls-label">Filter:</span>
+    <button class="filter-btn active" onclick="filtrer(this,'alle')">Alle</button>
+    <button class="filter-btn" onclick="filtrer(this,'jager')">Jagerfly</button>
+    <button class="filter-btn" onclick="filtrer(this,'angrep')">Angrep</button>
+    <button class="filter-btn" onclick="filtrer(this,'bomber')">Bombefly</button>
+    <button class="filter-btn" onclick="filtrer(this,'spesial')">Spesial</button>
+    <button class="filter-btn" onclick="filtrer(this,'helikopter')">Helikopter</button>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Søk fly eller land…" oninput="oppdater()" />
+    </div>
+  </div>
+
+  <div class="grid" id="flyGrid"></div>
+  <div id="ingen">Ingen fly funnet. Prøv et annet søk eller filter.</div>
+
+  <footer>
+    <span>Data: legg inn egne kilder/data i data.js</span>
+    <span>Kortene åpner egne sider via fly.html?id=...</span>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
