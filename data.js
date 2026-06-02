@@ -23,7 +23,7 @@ const flyData = [
       "Polen"
     ],
     "highlight": "Verdens mest avanserte multirolle stealthjager. Brukes av flest NATO-land av femte generasjons fly.",
-    "bilde": "assets/f-35-lightning-ii.png",
+    "bilde": "assets/F35A.jpg",
     "innhold": "Verdens mest avanserte multirolle stealthjager. Brukes av flest NATO-land av femte generasjons fly. Her kan du skrive mer detaljert innhold om flyet direkte i data.js."
   },
   {
